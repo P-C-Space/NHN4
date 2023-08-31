@@ -1,0 +1,9 @@
+
+W
+java:S1854"5Remove this useless assignment to local variable "i".(Ã–¥¶øÿÿÿÿ8ï­âÌ¤1
+V
+java:S1854"9Remove this useless assignment to local variable "value".(Ú­ú²8™ÓáÌ¤1
+G
+java:S1481"*Remove this unused "value" local variable.(Ú­ú²8›ÓáÌ¤1
+H
+java:S1481"&Remove this unused "i" local variable.(Ã–¥¶øÿÿÿÿ8ñ­âÌ¤1
