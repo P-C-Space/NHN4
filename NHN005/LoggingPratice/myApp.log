@@ -1,0 +1,2 @@
+2023-09-01 09:33:05,471 [main] INFO c.n.l.MyLogback [MyLogBack.java:11] - 덧셈 연산 수행 : 1 + 2
+2023-09-01 09:33:05,475 [main] WARN c.n.l.MyLogback [MyLogBack.java:17] - 덧셈 연산 실패.. 0으로 나눌 수 없음
