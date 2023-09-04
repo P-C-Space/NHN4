@@ -1,0 +1,6 @@
+FractionalTest에서 AssertionError가 나지 않도록 Fractional(분수) class를 고칩니다. 왜 그렇게 고쳤나요?
+- 해시 함수의 정규화 후에 해시코드를 반환하도록 구현하였습니다.
+- 각각의 값이 다르기 때문에 1/2 2/4 같은 의미더라도 다른 해시코드를 반환합니다.
+
+FibonacciTest의 어느 method에서 무슨 Exception 던지나요? 왜 그런가요?
+ - RecursionCase 자료형의 크기를 넘어서기 때문입니다.
