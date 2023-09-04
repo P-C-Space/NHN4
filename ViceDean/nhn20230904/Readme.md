@@ -23,3 +23,6 @@
 
 ## Register
 * 여러 종류의 레지스터가 각각의 역할을 수행
+
+## CPU 동작
+* Fetch -> Decode -> Execute -> Store

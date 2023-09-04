@@ -18,19 +18,19 @@
     * LibraryTest
 * 부학장님 수업 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN002_3/ViceDean)
 
-* 과제
-  * 윤년 계산기 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN002_3/ExamHomeWork)
+* 과제 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN002_3/ExamHomeWork)
+  * 윤년 계산기 
 ## 4일차 - 2023.08.31
-* Maven 실습
+* Maven 실습 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN004)
   * jar 파일 생성 실습
     * CreateRandom
     * Movie
     * maven-test
 * 과제
-  * 2진수 -> 10진수, 10진수 -> 2진수 변환 []()
-  * Movie junit Test 코드 작성[]()
+  * 2진수 -> 10진수, 10진수 -> 2진수 변환 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN004/Converter.java)
+  * Movie junit Test 코드 작성 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN004/Movie)
 ## 5일차 - 2023.09.01
-* Log 실습[이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN005/LoggingPratice)
+* Log 실습 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN005/LoggingPratice)
 * 과제 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN005/Homework5day)
   * nhn-mart
     * Nhn-mart 구현
