@@ -10,12 +10,25 @@
 * Intellj 실습 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN002_3/IntellijPractice)
 
 ## 3일차
-* 
+* Maven 실습
+  * Junit 실습
+    * Calculator
+    * DiceCalculator
+    * DiceTest
+    * LibraryTest
+* 부학장님 수업 [이동하기]()
 
 * 과제
   * 윤년 계산기 [이동하기](https://github.com/P-C-Space/NHN4/tree/master/NHN002_3/ExamHomeWork)
 ## 4일차
-
+* Maven 실습
+  * jar 파일 생성 실습
+    * CreateRandom
+    * Movie
+    * maven-test
+* 과제
+  * 2진수 -> 10진수, 10진수 -> 2진수 변환 []()
+  * Movie junit Test 코드 작성[]()
 ## 5일차
 
 ## 6일차

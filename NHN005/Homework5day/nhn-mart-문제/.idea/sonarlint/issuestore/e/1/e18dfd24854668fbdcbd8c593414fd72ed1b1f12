@@ -1,0 +1,10 @@
+
+]	java:S125	"<This block of commented-out lines of code should be removed.(ìéøÿÿÿÿ8É¢…¶¥1
+L	java:S106$"+Replace this use of System.out by a logger.(›Äæ÷üÿÿÿÿ8­‚«ÿ¤1
+X	java:S125("<This block of commented-out lines of code should be removed.(Ôøª±8Ì¢…¶¥1
+c
+java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8ˆõ¯ÿ¤1
+I
+java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68Ì¢…¶¥1
+Q
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8Ì¢…¶¥1

@@ -1,0 +1,10 @@
+
+’
+java:S1319""pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(÷åşÿÿÿÿ8¾™Äˆ¥1
+X	java:S125"<This block of commented-out lines of code should be removed.(ûØ‰®8æñƒ¶¥1
+X	java:S125"<This block of commented-out lines of code should be removed.(ŞÚ°8Úœ„¶¥1
+X	java:S125"<This block of commented-out lines of code should be removed.(…†”»8Ûœ„¶¥1
+I
+java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68Ûœ„¶¥1
+Q
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8Ûœ„¶¥1

@@ -1,0 +1,392 @@
+2023-09-01 17:17:20,697 [main] INFO c.n.m.NhnMart [NhnMart.java:11] - NHN마트 생성
+2023-09-01 17:22:43,536 [main] INFO c.n.m.NhnMart [NhnMart.java:11] - NHN마트 생성
+2023-09-01 17:22:50,414 [main] INFO c.n.m.NhnMart [NhnMartShell.java:38] - 구매 리스트 생성
+2023-09-01 17:23:02,734 [main] INFO c.n.m.NhnMart [NhnMart.java:11] - NHN마트 생성
+2023-09-01 17:23:09,394 [main] WARN c.n.m.NhnMart [BuyList.java:20] - 잘못된 인자 입력 "구매품목 금액"이 입력되어야 합니다.
+2023-09-01 17:23:09,394 [main] INFO c.n.m.NhnMart [NhnMartShell.java:38] - 구매 리스트 생성
+2023-09-01 17:30:56,188 [main] WARN c.n.m.NhnMart [BuyList.java:20] - 잘못된 인자 입력 "구매품목 금액"이 입력되어야 합니다.
+2023-09-01 17:52:32,573 [main] WARN c.n.m.NhnMart [BuyList.java:26] - 잘못된 인자 입력 "구매품목 금액"이 입력되어야 합니다.
+2023-09-01 17:54:24,835 [main] WARN c.n.m.NhnMart [BuyList.java:26] - 잘못된 인자 입력 "구매품목 금액"이 입력되어야 합니다.
+2023-09-01 17:56:11,639 [main] WARN c.n.m.NhnMart [BuyList.java:22] - 잘못된 인자 입력 "구매품목 금액"이 입력되어야 합니다.
+2023-09-01 18:12:58,008 [main] WARN c.n.m.BuyList [BuyList.java:23] - 잘못된 인자 입력 "구매품목"이 입력되어야 합니다.
+2023-09-01 18:12:58,014 [main] WARN c.n.m.BuyList [BuyList.java:28] - 잘못된 인자 입력 "금액"이 입력되어야 합니다.
+2023-09-01 18:21:37,926 [main] WARN c.n.m.BuyList [BuyList.java:28] - 잘못된 인자 입력 "금액"이 입력되어야 합니다.
+2023-09-01 18:49:26,139 [main] INFO c.n.m.Food [Food.java:24] - Food 생성 완료 : name - 양파
+2023-09-01 18:51:16,531 [main] WARN c.n.m.Food [Food.java:15] - 잘못된 인자 입력 "구매품목"이 입력되어야 합니다.
+2023-09-01 18:51:28,944 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 18:51:28,953 [main] WARN c.n.m.Food [Food.java:15] - 잘못된 인자 입력 "구매품목"이 입력되어야 합니다.
+2023-09-01 23:08:54,728 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:09:57,473 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:09:57,475 [main] INFO c.n.m.Food [FoodStand.java:29] - 품목 삭제 성공 : 양파
+2023-09-01 23:10:20,493 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:10:20,495 [main] INFO c.n.m.Food [FoodStand.java:29] - 품목 삭제 성공 : 양파
+2023-09-01 23:11:04,683 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:11:04,685 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:11:17,523 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:11:17,525 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:11:23,162 [main] INFO c.n.m.NhnMart [NhnMart.java:11] - NHN마트 생성
+2023-09-01 23:11:23,165 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:11:23,165 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:11:23,165 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-01 23:11:23,165 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-01 23:11:23,165 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-01 23:11:23,165 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-01 23:11:23,165 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,166 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:23,167 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-01 23:11:31,885 [main] INFO c.n.m.NhnMartShell [NhnMartShell.java:40] - 구매 리스트 생성
+2023-09-01 23:11:31,888 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:11:31,888 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:11:31,888 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-01 23:11:31,888 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-01 23:11:31,888 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-01 23:11:31,888 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-01 23:11:31,889 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-01 23:11:31,889 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-01 23:14:22,295 [main] WARN c.n.m.Food [FoodStand.java:26] - 존재 하지 않는 품목 : 양파
+2023-09-01 23:18:07,828 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:22:53,593 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:43:49,329 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:43:49,332 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:43:49,333 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:45:22,696 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:45:32,699 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:47:10,835 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:48:25,500 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:48:25,502 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:49:25,055 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:49:35,738 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:49:35,740 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:49:35,741 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:49:41,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:49:41,792 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:49:52,144 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:50:45,369 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:50:45,371 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:51:18,210 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:52:37,933 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:52:37,936 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:52:51,337 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-01 23:56:53,179 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-01 23:56:53,181 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-01 23:57:46,548 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:11:49,024 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:11:49,027 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:11:49,029 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:16:09,426 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:16:09,429 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:16:09,430 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:16:32,478 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:16:32,481 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:07,621 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:17:50,985 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:17:58,149 [main] INFO c.n.m.NhnMart [NhnMart.java:11] - NHN마트 생성
+2023-09-02 11:17:58,151 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,152 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,153 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,154 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,154 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,154 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,154 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,154 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,154 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,154 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:17:58,154 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:08,474 [main] WARN c.n.m.BuyList [BuyList.java:28] - 잘못된 인자 입력 "금액"이 입력되어야 합니다.
+2023-09-02 11:18:17,811 [main] INFO c.n.m.NhnMart [NhnMart.java:11] - NHN마트 생성
+2023-09-02 11:18:17,814 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:18:17,814 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:18:17,814 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:18:17,814 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:18:17,814 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:18:17,814 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,815 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:17,816 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:18:21,499 [main] INFO c.n.m.NhnMartShell [NhnMartShell.java:40] - 구매 리스트 생성
+2023-09-02 11:18:21,501 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:18:21,501 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:18:21,502 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-02 11:18:21,502 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-02 11:18:21,502 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:18:21,502 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:18:21,502 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:18:21,502 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:19:57,495 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:19:57,497 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:19:57,497 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:28:14,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:28:14,793 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:28:14,793 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:29:39,837 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:29:39,839 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:29:39,839 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:33:13,589 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:33:13,591 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:33:13,592 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:33:13,592 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:33:25,929 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:33:25,931 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:33:25,932 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:33:25,932 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:33:42,336 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:33:42,338 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:33:42,339 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:33:42,339 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:39:26,787 [main] INFO c.n.m.NhnMart [NhnMart.java:11] - NHN마트 생성
+2023-09-02 11:39:26,789 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:39:26,789 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:39:26,789 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:26,789 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:26,789 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:26,789 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,790 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,791 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,792 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,792 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,792 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,792 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,792 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,792 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,792 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:26,793 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:39:26,793 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:39:26,793 [main] WARN c.n.m.Food [FoodStand.java:26] - 존재 하지 않는 품목 : 양파
+2023-09-02 11:39:53,669 [main] INFO c.n.m.NhnMart [NhnMart.java:11] - NHN마트 생성
+2023-09-02 11:39:53,671 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:39:53,671 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-02 11:39:53,671 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,672 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,673 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,674 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,674 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,674 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,674 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,674 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,674 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,674 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,674 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-02 11:39:53,675 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:39:53,675 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-02 11:39:53,675 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-02 11:39:53,675 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-02 11:39:53,675 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,676 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,677 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,677 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,677 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-02 11:39:53,677 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,278 [main] INFO c.n.m.NhnMart [NhnMart.java:11] - NHN마트 생성
+2023-09-03 01:03:35,280 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-03 01:03:35,281 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 양파
+2023-09-03 01:03:35,281 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-03 01:03:35,281 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-03 01:03:35,281 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 계란
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 파
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,282 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,283 [main] INFO c.n.m.Food [Food.java:20] - Food 생성 완료 : name - 사과
+2023-09-03 01:03:35,285 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-03 01:03:35,285 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 양파
+2023-09-03 01:03:35,285 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-03 01:03:35,285 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-03 01:03:35,285 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 계란
+2023-09-03 01:03:35,285 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-03 01:03:35,285 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 파
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,286 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
+2023-09-03 01:03:35,287 [main] INFO c.n.m.Food [FoodStand.java:30] - 품목 삭제 성공 : 사과
