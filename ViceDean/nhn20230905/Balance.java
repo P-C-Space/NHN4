@@ -1,0 +1,16 @@
+package nhn20230905;
+
+public class Balance {
+    private int balance;
+    public Balance(int balance){
+        this.balance = balance;
+    }
+
+    public int getBalance(){
+        return balance;
+    }
+
+    public Balance add(Balance value){
+        return new Balance(this.balance)
+    }
+}
