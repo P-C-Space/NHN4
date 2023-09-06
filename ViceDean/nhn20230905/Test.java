@@ -21,7 +21,7 @@ public class Test {
         account.balance = 100;
         account.ownerName = "Celine";
 
-                BankAccount account2 = new BankAccount();
+        BankAccount account2 = new BankAccount();
         BankAccount.accountNumber = 104;
         account2.balance = 100;
         account2.ownerName = "Celine";
@@ -32,5 +32,9 @@ public class Test {
         Balance b2 = new Balance(5);
 
         b1 = b1.add(b2);
+        System.out.println("here");
+        if (b1.compareTo(b2) == 0) {
+            System.out.println("Same Value");
+        }
     }
 }

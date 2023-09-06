@@ -11,6 +11,10 @@ public class Balance {
     }
 
     public Balance add(Balance value){
-        return new Balance(this.balance)
+        return new Balance(this.balance + value.getBalance());
+    }
+
+    public int compareTo(Balance value){
+        return this.balance - value.getBalance();
     }
 }
