@@ -1,6 +1,7 @@
 import java.math.*;
 
 public class BankAccount {
+
     private long accountNumber;
     private String ownerName;
     private BigDecimal balance;
