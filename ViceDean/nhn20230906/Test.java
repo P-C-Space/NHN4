@@ -2,11 +2,12 @@ package nhn20230906;
 
 public class Test {
     public static void main(String[] args) {
-        Department<Student> department = new Department<>(1, "Computer Engineering");
+        Department<Person> department = new Department<>(1, "Computer Engineering");
         department.add(new Student(1, "Celine", 21));
         department.add(new Student(3, "Jason", 19));
         department.add(new Student(2, "James", 20));
         department.add(new Student(4, "Rogers", 22));
+        
         
         // 기존
         //Collections.sort(department.getList());
@@ -36,8 +37,8 @@ public class Test {
         printStudentInformation(department);
     }
 
-    public static void printStudentInformation(Department<Student> department) {
-        for (Student s : department) {
+    public static void printStudentInformation(Department<Person> department) {
+        for (Person s : department) {
             System.out.println(s);
         }
     }
