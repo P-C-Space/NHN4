@@ -6,6 +6,10 @@ public class Main {
         return isPrimeSolution(start, end);
     }
 
+    public static int solution2(int start,int end){
+        return isPrimeSolution2(start,end);
+    }
+
     private static int isPrimeSolution(int start, int end) {
         int count = 0;
         for(int i = start; i < end;i++){
@@ -18,6 +22,7 @@ public class Main {
 
     private static int isPrimeSolution2(int start, int end) {
         int count = 0;
+        storeIsPrime();
         for(int i = start; i < end;i++){
             if(!isNotPrime[i]){
                 count++;
@@ -28,10 +33,11 @@ public class Main {
 
 
     private static void storeIsPrime(){
-
-        for(int i = 2;(i * i) <= isNotPrime.length;i++){
+        isNotPrime[0] = isNotPrime[1] = true;
+        for(int i = 2;i < Math.sqrt(isNotPrime.length);i++){
             if(!isNotPrime[i]){
-                isNotPrime[i] = true;
+                for(int j = i * i;j<isNotPrime.length;j += i)
+                    isNotPrime[j] = true;
             }
         }
     }
@@ -69,7 +75,7 @@ public class Main {
     }
 
     private static boolean test2(int start, int end, int result) {
-        if (solution(start, end) == result) {
+        if (solution2(start, end) == result) {
             correct++;
             return true;
         }
