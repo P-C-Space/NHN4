@@ -41,6 +41,6 @@ public class Deck {
     }
 
     public Card drow() {
-        return deck.remove(drowCount++);
+        return deck.remove(drowCount);
     }
 }

@@ -2,20 +2,25 @@ package com.nhnacademy.java.poker;
 
 public enum Pattern {
     
-    SPA("\u2660"),
-    DIA("\u25C6"),
-    HEA("\u2665"),
-    CLU("\u2618");
+    SPA("\u2660",4),
+    DIA("\u25C6",3),
+    HEA("\u2665",2),
+    CLU("\u2618",1);
 
+    private final int patternRank;
     private final String patternName;
 
-    Pattern(String patternName){
+    Pattern(String patternName,int patternRank){
         this.patternName = patternName;
+        this.patternRank = patternRank;
     }
 
-    @Override
-    public String toString(){
-        return this.patternName;
+    public String getPatternName() {
+        return patternName;
+    }
+
+    public int getPatternRank() {
+        return patternRank;
     }
     
 }
