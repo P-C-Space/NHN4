@@ -31,6 +31,5 @@ public abstract class Person implements Comparable<Person> {
     public int compareTo(Person o) {
         return this.getAge() - o.getAge();
     }   
-    
-    
+     
 }
