@@ -35,17 +35,22 @@ public class Table {
             System.out.println(
                     "==========================================================================================");
             System.out.println("게임을 시작합니다.");
-
+            System.out.println(
+                    "===========================================================================================");
             // 5장 게임 기존 과제
-            startFiveCard();
+            startFiveCard(); // 카드 나눠줌
             // made 확인
-            madeCheck();
-            printMyCard(player[0]);
-            PrintSpecificRank(player[0]);
-
+            madeCheck(); // made 확인
             System.out.println();
+            printMyCard(player[0]); // 나의 카드 출력
+            PrintSpecificRank(player[0]); // 랭크 출력
+            System.out.println();
+            System.out.println(
+                    "===========================================================================================");
             System.out.println("현재 점수 : " + count);
             System.out.println("승리 +1, 패배 -1, die 0");
+            System.out.println(
+                    "===========================================================================================");
             System.out.println();
             System.out.println("진행하시겠습니까?");
             System.out.println("1. 진행, 아무키 종료, 입력 : ");
@@ -63,18 +68,17 @@ public class Table {
                 System.out.println(
                         "===========================================================================================");
 
-                int WinnerPlayer = WinnerCheck();
-                if (WinnerPlayer == 0) {
+                Player WinnerPlayer = WinnerCheck();
+                if (WinnerPlayer.equals(player[0])) {
                     count++;
                     System.out.println("축하합니다 승리하셨습니다 +1");
                 } else {
                     count--;
-                    System.out.println("패배...");
-
+                    System.out.println("아쉽지만 패배...");
+   System.out.println(
+                    "===========================================================================================");
                     System.out.print("승리 ");
-                    printMyCard(player[WinnerPlayer]);
-                    System.out.print("Made : ");
-                    System.out.println(player[WinnerPlayer].getPlayerRank().getRankName());
+                    printMyCard(WinnerPlayer);
                 }
             } else {
                 System.out.println("die!");
@@ -99,25 +103,33 @@ public class Table {
 
     private void guidePrint() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         System.out
                 .println("==========================================================================================");
-
+        System.out.println();
         System.out.println("NHNPokerGame에 오신 것을 환영합니다");
+        System.out.println();
+        System.out
+                .println("==========================================================================================");
+        System.out.println();
         System.out.println("게임을 시작하시겠습니까?");
         System.out.print("1. game start,  2. exit  입력 : ");
 
         String input = br.readLine();
+        System.out.println();
         System.out
                 .println("==========================================================================================");
 
         if (!input.equals("1")) {
             System.out.println("안녕히 가십시오");
         } else {
+            System.out.println();
             System.out.print("인원을 선택하세요(본인을 포함한 초기값으로 변경할 수 없습니다. 최대 5명) 입력 : ");
             playerNumber = Integer.valueOf(br.readLine());
             if (playerNumber < 2 && playerNumber > 5) {
                 System.out.println("player는 두명 이상 필요");
             }
+            System.out.println();
         }
 
     }
@@ -137,8 +149,8 @@ public class Table {
         }
     }
 
-    private int WinnerCheck() {
-        int index = 0;
+    // 승자 확인
+    private Player WinnerCheck() {
         Player max = player[0];
 
         for (int i = 1; i < player.length; i++) {
@@ -146,18 +158,17 @@ public class Table {
             // 페어로 분별
             if (max.getPlayerRank().getRankCount() < player[i].getPlayerRank().getRankCount()) {
                 max = player[i];
-                index = i;
             }
 
             // 만약 페어가 같다면
             else if (max.getPlayerRank().getRankCount() == player[i].getPlayerRank().getRankCount()) {
                 // 노 페어가 아닐시
+                // NOPAIR = 1 =>1 보다 크다면 노페어가 아님
                 if (1 < player[i].getPlayerRank().getRankCount()) {
                     // 가장 높은 메이드 체크;
                     if (max.getMadeCard().getStringCardName().getCardRank() < player[i].getMadeCard()
                             .getStringCardName().getCardRank()) {
                         max = player[i];
-                        index = i;
                     }
                     // 만약 메이드가 같다면
                     else if (max.getMadeCard().getStringCardName().getCardRank() == player[i].getMadeCard()
@@ -168,7 +179,6 @@ public class Table {
                             if (max.getMadeCard2().getStringCardName().getCardRank() < player[i]
                                     .getMadeCard2()
                                     .getStringCardName().getCardRank()) {
-                                index = i;
                                 max = player[i];
                             }
 
@@ -176,55 +186,79 @@ public class Table {
                             else if (max.getMadeCard2().getStringCardName().getCardRank() == player[i]
                                     .getMadeCard2()
                                     .getStringCardName().getCardRank()) {
-                                // 남은 카드는 3장으로 동일하다.
-                                for (int j = 0; j < max.getNormalList().size(); j++) {
-                                    // 남은 카드 각각 비교 만약 i의 카드가 크다면
-                                    if (max.getNormalList().get(j).getStringCardName().getCardRank() < player[i]
-                                            .getNormalList().get(j).getStringCardName().getCardRank()) {
-                                        index = i;
+                                // 전부 같다면
+                                if (compareNormalCard(max, player[i]) == null) {
+                                    // 패턴 비교
+                                    if (max.getMadeCard().getPattern().getPatternRank() < player[i].getMadeCard()
+                                            .getPattern().getPatternRank()) {
                                         max = player[i];
-                                        break;
                                     }
                                 }
-
+                                // 누군지 가려졌으면
+                                else {
+                                    max = compareNormalCard(max, player[i]);
+                                }
                             }
                         }
                         // 풀하우스는 트리플이기 때문에 같을 수 없다. 투페어가 아니면 원페어
                         else {
-                            // 남은 카드는 장으로 동일하다.
-                            for (int j = 0; j < max.getNormalList().size(); j++) {
-                                // 남은 카드 각각 비교 만약 i의 카드가 크다면
-                                if (max.getNormalList().get(j).getStringCardName().getCardRank() < player[i]
-                                        .getNormalList().get(j).getStringCardName().getCardRank()) {
-                                    index = i;
+                            // 전부 같다면
+                            if (compareNormalCard(max, player[i]) == null) {
+                                // 패턴 비교
+                                if (max.getMadeCard().getPattern().getPatternRank() < player[i].getMadeCard()
+                                        .getPattern().getPatternRank()) {
                                     max = player[i];
-                                    break;
                                 }
+                            }
+                            // 누군지 가려졌으면
+                            else {
+                                max = compareNormalCard(max, player[i]);
                             }
                         }
                     }
-                } else {
-                    System.out.println("normalizeCheck");
-                    // 남은 카드는 장으로 동일하다.
-                    for (int j = max.getNormalList().size() - 1; j >= 0 ; j--) {
-                        // 남은 카드 각각 비교 만약 i의 카드가 크다면
-                        if (max.getNormalList().get(j).getStringCardName().getCardRank() < player[i]
-                                .getNormalList().get(j).getStringCardName().getCardRank()) {
-                            index = i;
+                }
+
+                // 남은 카드 노페어일 시
+                else {
+                    // 전부같다면
+                    if (compareNormalCard(max, player[i]) == null) {
+                        // 패턴 비교
+                        if (max.getMadeCard().getPattern().getPatternRank() < player[i].getMadeCard().getPattern()
+                                .getPatternRank()) {
                             max = player[i];
-                            break;
                         }
+                    }
+                    // 누군지 가려졌으면
+                    else {
+                        max = compareNormalCard(max, player[i]);
                     }
                 }
             }
 
         }
-        return index;
+        return max;
+    }
+
+    private Player compareNormalCard(Player max, Player comparePlayer) {
+        for (int j = 0; j < max.getNormalList().size(); j++) {
+            // 남은 카드 각각 비교 만약 i의 카드가 크다면
+            if (max.getNormalList().get(j).getStringCardName().getCardRank() < comparePlayer
+                    .getNormalList().get(j).getStringCardName().getCardRank()) {
+                return comparePlayer;
+            } // 반대라면 유지
+            else if (max.getNormalList().get(j).getStringCardName().getCardRank() > comparePlayer
+                    .getNormalList().get(j).getStringCardName().getCardRank()) {
+                return max;
+            }
+            // 같다면 계속 진행
+        }
+        // 모두 같다면
+        return null;
     }
 
     // 기존의 과제 코드 5명 -> 7명
     private void startFiveCard() {
-        for (int i = 0; i < 4; i++) { // 5장씩
+        for (int i = 0; i < 7; i++) { // 7장씩
             for (int j = 0; j < player.length; j++) { // 플레이어마다
                 player[j].drowCardPlayer(deck.drow());
             }
@@ -237,17 +271,30 @@ public class Table {
         for (Card card : player.getPlayerDeck()) {
             System.out.print(card + "   ");
         }
-        System.out.print(player.getPlayerRank().getRankName());
+
+        // 메이드 카드 확인
+        System.out.print(player.getPlayerRank().getRankName()); // 나의 랭크 출력
         System.out.println();
         System.out.print("made Card : ");
+        if (player.getMadeList().size() == 0) {
+            System.out.print("NONE");
+        }
         for (Card card : player.getMadeList()) {
             System.out.print(card + "   ");
         }
         System.out.println();
+
+        // 나머지 카드 확인
+        // System.out.println();
+        // System.out.print("Normal Card : ");
+        // for (Card card : player.getNormalList()) {
+        // System.out.print(card + " ");
+        // }
+        // System.out.println();
     }
 
     // 1번째 player전용 Made 출력물
-    private void PrintSpecificRank(Player player) {
+    private void PrintSpecificRank(Player player) { // 메이드 일시만 알려줌 노페어 알알려줌
         // NOPAIR가 아닐때만
         if (!player.getPlayerRank().equals(Rank.NOPAIR)) {
             System.out.print("MADE!!!! MADE NAME : ");

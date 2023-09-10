@@ -3,6 +3,7 @@ package com.nhnacademy.java.poker;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Player {
@@ -56,7 +57,7 @@ public class Player {
     }
 
     public void setNormalList(List<Card> cards) {
-        Collections.sort(cards); // 정렬해서 전달 // 오른쪽이 가장 큼
+        Collections.sort(cards,Comparator.reverseOrder()); // 정렬해서 전달 
         this.normalList = cards;
     }
 

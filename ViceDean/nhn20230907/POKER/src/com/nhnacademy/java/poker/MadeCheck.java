@@ -27,8 +27,7 @@ public class MadeCheck {
 
             if (currentCard.equals(nextCard)) { // 원페어
 
-                madeCard.add(cards.get(i));
-                madeCard.add(cards.get(i+1));
+
                 // 원페어 유지 및 투페어
                 if (rank.compareTo(Rank.ONEPAIR) < 0) {
                     rank = Rank.ONEPAIR;
@@ -37,7 +36,17 @@ public class MadeCheck {
                 else if (rank.compareTo(Rank.ONEPAIR) == 0) { // 만약 같다면 투 페어 상승
                     rank = Rank.TWOPAIR;
                 }
+                
+                // // 이미 트리플이라면 트리플에 해당하는 아닌 카드가 원페어일때 풀하우스
+                // else if(rank.compareTo(Rank.TRIPLE) == 0){
+                //     // 이후에 저장하기 때문에 중복되지 않는다.
+                //     // 페어 체크를 가장 먼저함 -> 이미 트리플이 들어온 상태로 넘어갔다면 다음 페어는 중복될 수가 없음
+                //     rank = Rank.TRIPLE;
 
+                // }
+
+                madeCard.add(cards.get(i));
+                madeCard.add(cards.get(i+1));
                 
                 // 트리플
                 if ((i < (cards.size() - 2)) && nextCard.equals(cards.get(i + 2).getStringCardName().getCardName())) { // 트리플
@@ -71,6 +80,7 @@ public class MadeCheck {
 
     }
 
+    
 
 
 }
