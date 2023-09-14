@@ -1,8 +1,0 @@
-
-n
-java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(òí³Éøÿÿÿÿ8ÿ»ÎÚ¥1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òí³Éøÿÿÿÿ8‚¼ÎÚ¥1
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şƒ›´8ƒ¼ÎÚ¥1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¡ˆ®üÿÿÿÿ8ıÃÑÚ¥1
-M
-java:S5960"+Remove this assertion from production code.(âÆßøÿÿÿÿ8…¼ÎÚ¥1

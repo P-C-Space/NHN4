@@ -1,12 +1,0 @@
-
-E
-java:S5411"(Use a primitive boolean expression here.( ˆÚ8Þ—·Î¥1
->	java:S131""Add a default case to this switch.(ì’ä¸8ã—·Î¥1
-X	java:S125
-"<This block of commented-out lines of code should be removed.(ª¤¾¼8ã—·Î¥1
-]	java:S125"<This block of commented-out lines of code should be removed.(·ýÆèÿÿÿÿÿ8¡³»Î¥1
-j	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¯†Þ8ä—·Î¥1
-j	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á®•Ä8ä—·Î¥1
-o	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û‡âüþÿÿÿÿ8å—·Î¥1
-M
-java:S5960#"+Remove this assertion from production code.(†ŸŽïûÿÿÿÿ8å—·Î¥1
