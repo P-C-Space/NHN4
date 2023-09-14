@@ -1,10 +1,10 @@
 package com.nhnacademy.java.poker;
 
 
-public enum CardsInDeck {
+public enum CardNumber {
     ACE("A",14),
     TWO("2",2),
-    Three("3",3),
+    THREE("3",3),
     FOUR("4",4),
     FIVE("5",5),
     SIX("6",6),
@@ -16,16 +16,16 @@ public enum CardsInDeck {
     QUEEN("Q",12),
     KING("K",13);
 
-    private final String cardName;
+    private final String cardNumber;
     private final int cardRank;
     
-    CardsInDeck(String cardName,int cardRank){
-        this.cardName = cardName;
+    CardNumber(String cardName,int cardRank){
+        this.cardNumber = cardName;
         this.cardRank = cardRank;
     }
 
-    public String getCardName() {
-        return cardName;
+    public String getCardNumber() {
+        return cardNumber;
     }
     
     public int getCardRank() {

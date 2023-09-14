@@ -6,21 +6,20 @@ import java.util.List;
 
 public class Deck {
     private List<Card> deck;
-    private int drowCount;
 
     public Deck() {
-        init(); // 초기화
+        init();
         // printDeck(); 테스트
-        shuffle(); // 셔플
+        shuffle();
         // printDeck(); 테스트
 
     }
 
     private void init() {
-        drowCount = 0;
         deck = new ArrayList<Card>();
-        CardsInDeck[] cards = CardsInDeck.values();
-        Pattern[] patterns = Pattern.values();
+
+        CardNumber[] cards = CardNumber.values();
+        CardPattern[] patterns = CardPattern.values();
 
         for (int i = 0; i < patterns.length; i++) {
             for (int j = 0; j < cards.length; j++) {
@@ -33,14 +32,15 @@ public class Deck {
         Collections.shuffle(deck);
     }
 
-    // 확인용
-    private void printDeck() {
-        for (Card c : deck) {
-            System.out.println(c);
-        }
+    public Card draw() {
+        return deck.remove(0);
     }
 
-    public Card drow() {
-        return deck.remove(drowCount);
-    }
+    // 확인용
+    // private void printDeck() {
+    // for (Card c : deck) {
+    // System.out.println(c);
+    // }
+    // }
+
 }

@@ -75,8 +75,8 @@ public class Table {
                 } else {
                     count--;
                     System.out.println("아쉽지만 패배...");
-   System.out.println(
-                    "===========================================================================================");
+                    System.out.println(
+                            "===========================================================================================");
                     System.out.print("승리 ");
                     printMyCard(WinnerPlayer);
                 }
@@ -166,26 +166,26 @@ public class Table {
                 // NOPAIR = 1 =>1 보다 크다면 노페어가 아님
                 if (1 < player[i].getPlayerRank().getRankCount()) {
                     // 가장 높은 메이드 체크;
-                    if (max.getMadeCard().getStringCardName().getCardRank() < player[i].getMadeCard()
-                            .getStringCardName().getCardRank()) {
+                    if (max.getMadeCard().getNumber().getCardRank() < player[i].getMadeCard()
+                            .getNumber().getCardRank()) {
                         max = player[i];
                     }
                     // 만약 메이드가 같다면
-                    else if (max.getMadeCard().getStringCardName().getCardRank() == player[i].getMadeCard()
-                            .getStringCardName().getCardRank()) {
+                    else if (max.getMadeCard().getNumber().getCardRank() == player[i].getMadeCard()
+                            .getNumber().getCardRank()) {
 
                         // 두번째 메이드 체크 투페어 일시
                         if (player[i].getPlayerRank().getRankName().equals("TWOPAIR")) {
-                            if (max.getMadeCard2().getStringCardName().getCardRank() < player[i]
+                            if (max.getMadeCard2().getNumber().getCardRank() < player[i]
                                     .getMadeCard2()
-                                    .getStringCardName().getCardRank()) {
+                                    .getNumber().getCardRank()) {
                                 max = player[i];
                             }
 
                             // 투페어일때 두번째 메이드마저 같다면
-                            else if (max.getMadeCard2().getStringCardName().getCardRank() == player[i]
+                            else if (max.getMadeCard2().getNumber().getCardRank() == player[i]
                                     .getMadeCard2()
-                                    .getStringCardName().getCardRank()) {
+                                    .getNumber().getCardRank()) {
                                 // 전부 같다면
                                 if (compareNormalCard(max, player[i]) == null) {
                                     // 패턴 비교
@@ -242,12 +242,12 @@ public class Table {
     private Player compareNormalCard(Player max, Player comparePlayer) {
         for (int j = 0; j < max.getNormalList().size(); j++) {
             // 남은 카드 각각 비교 만약 i의 카드가 크다면
-            if (max.getNormalList().get(j).getStringCardName().getCardRank() < comparePlayer
-                    .getNormalList().get(j).getStringCardName().getCardRank()) {
+            if (max.getNormalList().get(j).getNumber().getCardRank() < comparePlayer
+                    .getNormalList().get(j).getNumber().getCardRank()) {
                 return comparePlayer;
             } // 반대라면 유지
-            else if (max.getNormalList().get(j).getStringCardName().getCardRank() > comparePlayer
-                    .getNormalList().get(j).getStringCardName().getCardRank()) {
+            else if (max.getNormalList().get(j).getNumber().getCardRank() > comparePlayer
+                    .getNormalList().get(j).getNumber().getCardRank()) {
                 return max;
             }
             // 같다면 계속 진행
@@ -260,7 +260,7 @@ public class Table {
     private void startFiveCard() {
         for (int i = 0; i < 7; i++) { // 7장씩
             for (int j = 0; j < player.length; j++) { // 플레이어마다
-                player[j].drowCardPlayer(deck.drow());
+                player[j].drowCardPlayer(deck.draw());
             }
         }
     }
@@ -296,7 +296,7 @@ public class Table {
     // 1번째 player전용 Made 출력물
     private void PrintSpecificRank(Player player) { // 메이드 일시만 알려줌 노페어 알알려줌
         // NOPAIR가 아닐때만
-        if (!player.getPlayerRank().equals(Rank.NOPAIR)) {
+        if (!player.getPlayerRank().equals(Rank.NO_PAIR)) {
             System.out.print("MADE!!!! MADE NAME : ");
             System.out.println(player.getPlayerRank().getRankName());
         }

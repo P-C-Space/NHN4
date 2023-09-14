@@ -15,26 +15,28 @@ public class MadeCheck {
     public static void PairCheck(Player player) {
         List<Card> cards = new ArrayList<>(player.getPlayerDeck());
         Collections.sort(cards);
+
+
         Set<Card> madeCard = new HashSet<>();
         // NOPAIR
-        Rank rank = Rank.NOPAIR;
+        Rank rank = Rank.NO_PAIR;
 
         // 확인
         // System.out.println(card);
         for (int i = 0; i < cards.size() - 1; i++) {
-            String currentCard = cards.get(i).getStringCardName().getCardName();
-            String nextCard = cards.get(i + 1).getStringCardName().getCardName();
+            String currentCard = cards.get(i).getNumber().getCardNumber();
+            String nextCard = cards.get(i + 1).getNumber().getCardNumber();
 
             if (currentCard.equals(nextCard)) { // 원페어
 
 
                 // 원페어 유지 및 투페어
-                if (rank.compareTo(Rank.ONEPAIR) < 0) {
-                    rank = Rank.ONEPAIR;
+                if (rank.compareTo(Rank.ONE_PAIR) < 0) {
+                    rank = Rank.ONE_PAIR;
                 }
 
-                else if (rank.compareTo(Rank.ONEPAIR) == 0) { // 만약 같다면 투 페어 상승
-                    rank = Rank.TWOPAIR;
+                else if (rank.compareTo(Rank.ONE_PAIR) == 0) { // 만약 같다면 투 페어 상승
+                    rank = Rank.TWO_PAIR;
                 }
                 
                 // // 이미 트리플이라면 트리플에 해당하는 아닌 카드가 원페어일때 풀하우스
@@ -49,19 +51,19 @@ public class MadeCheck {
                 madeCard.add(cards.get(i+1));
                 
                 // 트리플
-                if ((i < (cards.size() - 2)) && nextCard.equals(cards.get(i + 2).getStringCardName().getCardName())) { // 트리플
+                if ((i < (cards.size() - 2)) && nextCard.equals(cards.get(i + 2).getNumber().getCardNumber())) { // 트리플
                     if (rank.compareTo(Rank.TRIPLE) < 0) {
                         rank = Rank.TRIPLE;
                     }
                     
                     madeCard.add(cards.get(i+2));
-                    String thirdCard = cards.get(i + 2).getStringCardName().getCardName();
+                    String thirdCard = cards.get(i + 2).getNumber().getCardNumber();
 
                     // 포카드
                     if (i < (cards.size() - 3)
-                            && thirdCard.equals(cards.get(i + 3).getStringCardName().getCardName())) {
-                        if (rank.compareTo(Rank.FOURCARD) < 0) {
-                            rank = Rank.FOURCARD;
+                            && thirdCard.equals(cards.get(i + 3).getNumber().getCardNumber())) {
+                        if (rank.compareTo(Rank.FOUR_CARD) < 0) {
+                            rank = Rank.FOUR_CARD;
                         }
 
                         madeCard.add(cards.get(i+3));
@@ -76,11 +78,8 @@ public class MadeCheck {
         }
         player.setNormalList(cards);
         player.setRank(rank);
-        player.SetmadeList(new ArrayList<>(madeCard));
+        player.setMadeList(new ArrayList<>(madeCard));
 
     }
-
-    
-
 
 }

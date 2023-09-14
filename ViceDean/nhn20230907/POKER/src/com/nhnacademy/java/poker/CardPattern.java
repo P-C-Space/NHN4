@@ -1,6 +1,6 @@
 package com.nhnacademy.java.poker;
 
-public enum Pattern {
+public enum CardPattern {
     
     SPA("\u2660",4),
     DIA("\u25C6",3),
@@ -10,7 +10,7 @@ public enum Pattern {
     private final int patternRank;
     private final String patternName;
 
-    Pattern(String patternName,int patternRank){
+    CardPattern(String patternName,int patternRank){
         this.patternName = patternName;
         this.patternRank = patternRank;
     }

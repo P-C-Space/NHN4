@@ -2,35 +2,36 @@ package com.nhnacademy.java.poker;
 
 public class Card implements Comparable<Card> {
 
-    CardsInDeck cardName;
-    Pattern pattern;
+    private CardNumber number;
+    private CardPattern pattern;
 
-    Card(CardsInDeck cardName, Pattern pattern) {
-        this.cardName = cardName;
+    public Card(CardNumber number, CardPattern pattern) {
+        this.number = number;
         this.pattern = pattern;
     }
 
-
-    public CardsInDeck getStringCardName() {
-        return cardName;
+    // getter
+    public CardNumber getNumber() {
+        return number;
     }
 
-    public Pattern getPattern() {
+    public CardPattern getPattern() {
         return pattern;
     }
 
+    
     @Override
     public String toString() {
-        return "[" + pattern.getPatternName() + "]" + cardName.getCardName();
+        return "[" + this.getPattern().getPatternName() + "]" + this.getNumber().getCardNumber();
     }
 
     @Override
     public int compareTo(Card card) {
-        if((this.cardName.getCardRank() - card.getStringCardName().getCardRank()) == 0){
-            return this.pattern.getPatternRank() - card.pattern.getPatternRank();
+        if((this.getNumber().getCardRank() - card.getNumber().getCardRank()) == 0){
+            return this.getPattern().getPatternRank() - card.getPattern().getPatternRank();
         }
         
-        return this.cardName.getCardRank() - card.getStringCardName().getCardRank();
+        return this.getNumber().getCardRank() - card.getNumber().getCardRank();
     }
 
 }

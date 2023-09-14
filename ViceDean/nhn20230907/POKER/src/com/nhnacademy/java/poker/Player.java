@@ -15,10 +15,11 @@ public class Player {
     private Card madeCard; // 투페어일시 최상위 메이드 카드 아닐시에는 원페어의 최상위 메이드 카드
     private Card madeCard2; // 투페어일시 두번째 메이드 카드
 
+
     public Player() {
         playerDeck = new ArrayList<>();
         madeList = new ArrayList<>();
-        this.playerRank = Rank.NOPAIR;
+        this.playerRank = Rank.NO_PAIR;
     }
 
     public void drowCardPlayer(Card card) {
@@ -39,12 +40,14 @@ public class Player {
 
     public void init() {
         this.playerDeck.clear();
-        this.playerRank = Rank.NOPAIR;
+        this.playerRank = Rank.NO_PAIR;
         this.madeList.clear();
     }
 
-    public void SetmadeList(List<Card> cards) {
+    public void setMadeList(List<Card> cards) {
+
         Collections.sort(cards);
+
         int size = cards.size();
         if (size != 0) {
             madeCard = cards.get(size - 1);
