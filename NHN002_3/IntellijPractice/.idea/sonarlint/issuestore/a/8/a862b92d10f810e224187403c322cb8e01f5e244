@@ -1,21 +1,0 @@
-
-L
-java:S1854"7Remove this useless assignment to local variable "num".(áï¾H
-V
-java:S1854";Remove this useless assignment to local variable "scanner".(ù ƒ‘üÿÿÿÿ
-O
-java:S1854	":Remove this useless assignment to local variable "random".(¼İÅf
-@
-java:S1481	"+Remove this unused "random" local variable.(¼İÅf
-G
-java:S1481",Remove this unused "scanner" local variable.(ù ƒ‘üÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(°¹şã
-<
-java:S1481"&Remove this unused "i" local variable.(»ŸÜš
->
-java:S1481"(Remove this unused "abc" local variable.(êÑØú
-?	java:S106"+Replace this use of System.out by a logger.(¸ØïU
-E	java:S106"+Replace this use of System.out by a logger.(İè¬øÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(ºÙ„½
-?	java:S106"+Replace this use of System.out by a logger.(×Ë D
-E	java:S106 "+Replace this use of System.out by a logger.(´ğ«şÿÿÿÿ
