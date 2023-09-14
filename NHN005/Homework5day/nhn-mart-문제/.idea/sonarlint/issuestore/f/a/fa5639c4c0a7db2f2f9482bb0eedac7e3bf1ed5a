@@ -1,10 +1,0 @@
-
-]	java:S125"<This block of commented-out lines of code should be removed.(€¾¡ùÿÿÿÿ8ÜÇ„¶¥1
-G	java:S106"+Replace this use of System.out by a logger.(æ”±ÿ8êåÄş¤1
-]	java:S125"<This block of commented-out lines of code should be removed.(ƒïä¬ÿÿÿÿÿ8‡é„¶¥1
-I
-java:S2440-"'Remove this instantiation of "Counter".(É„èìùÿÿÿÿ8İóÀş¤1
-I
-java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68ˆé„¶¥1
-Q
-java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8ˆé„¶¥1
